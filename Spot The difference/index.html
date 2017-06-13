@@ -1,0 +1,47 @@
+<!--Spot The differences game-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Haider Jamshed Anwar">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="scripts.js">
+  
+  </head>
+  <header><h1>Spot The Differences</h1></header>
+  <body>
+  <div id="Difficulty">
+    <span id="easy">Easy<br></span>
+    <span id="intr">Intermediate<br></span>
+    <span id="hard">Hard<br></span>
+    
+    </div>
+  <div id="Easy">
+    <div id="EImgO">
+    <img src="EasyimgO1.jpg" width="650" >
+    </div>
+    <div id="EImgD">
+    <img src="EasyimgD1.jpg"  usemap="#Differencemap" width="650">
+    </div>
+    <map name="Differencemap">
+  <area shape="circle" coords="112,312,30" alt="Grapevine" id="Grapevine">
+  <area shape="rect" coords="630,90,650,150" alt="Branch" href="EasyimgO1.jpg">
+  <area shape="circle" coords="265,312,28" href="EasyimgO1.jpg" alt="Logo">
+  </map>
+    <span id="found"></span>
+    </div>
+   <!--<div id="Intermediate">
+    <div id="IImgO">
+    </div>
+    <div id="IImgD">
+    </div>
+    </div>
+   <div id="Hard">
+    <div id="HImgO">
+    </div>
+    <div id="HImgD">
+    </div>
+    </div>-->
+  </body>
+  
+</html>

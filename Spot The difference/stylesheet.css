@@ -1,0 +1,55 @@
+/*Css for Spot differences game*/
+body{
+  background-color: rebeccapurple;
+  font-size: 20;
+  color: aliceblue;
+  font-family: fantasy;
+
+}
+
+h1 {
+  font-size: 45pt;
+  color: gold;
+  margin-top: 20px;
+  margin-left: 15px;
+  border: 5px solid;
+  border-color: mediumpurple;
+  border-radius: 3px;
+  width: 34%;
+  
+}
+
+#Difficulty{
+  background-color: red;
+  display: none;
+  
+}
+#EImgD{
+  display: inline;
+  float: right;
+  width: 40%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  border: 5px solid;
+  border-color: mediumpurple;
+  border-radius: 3px;
+  padding-right: 15px;
+}
+#EImgO{
+  float: left;
+  display: inline;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 20px;
+  border: 5px solid;
+  border-color: mediumpurple;
+  border-radius: 3px;
+  padding-right: 15px;
+}
+#found{
+  margin-top: 150px;
+  margin-left: 5px;
+  position: absolute;
+  
+}
