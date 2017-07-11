@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Haider Jamshed Anwar">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="stylesheet" type="text/javascript" href="scripts.js">
+  <!--<link rel="stylesheet" type="text/javascript" href="scripts.js">-->
   
   </head>
     <div id="TopBar"><header><h1>Spot The Differences</h1></header></div>
   <body>
   <div id="Difficulty">
-    <span id="easy">Easy<br></span>
+    <span id="easy"><button type="button" id="EasyBut">Easy</button><br></span>
     <span id="intr">Intermediate<br></span>
     <span id="hard">Hard<br></span>
     
     </div>
-  <div id="Easy">
+  <div id="EasyD">
     <div id="EImgO">
     <img src="EasyimgO1.jpg" width="650" >
     </div>
@@ -28,9 +28,9 @@
   <area shape="rect" coords="630,90,650,150" alt="Branch" href="EasyimgO1.jpg">
   <area shape="circle" coords="265,312,28" href="EasyimgO1.jpg" alt="Logo">
   </map>
-    <span id="found"><script src="js/add-content.js"></script></span>
+    <span id="found"></span>
     </div>
-   <div id="InfoBar">Found:<br> 0/3</div>
+   <div id="InfoBar">Found:<br><script src="js/add-content.js"></script></div>
       <!--<div id="Intermediate">
     <div id="IImgO">
     </div>
@@ -43,7 +43,25 @@
     <div id="HImgD">
     </div>
     </div>-->
- <div id="BotBar"> About </div>
+ <div id="BotBar"> 
+   <ul id="BotLi">
+     <li>About</li>
+     <li>My portfolio</li>
+     <li>Solution</li>
+   
+   </ul> 
+    </div>
+    
+    
+    
+    <!--<script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>-->
+    
+    
+    <script src="scripts.js"></script>
+    
     </body>
   
 </html>

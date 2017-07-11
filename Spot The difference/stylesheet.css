@@ -23,7 +23,7 @@ h1 {
 
 #TopBar{
     background-color: black;
-    width: 100%;
+    width: 99%;
     height: 20%;
     border: 5px solid;
   border-color: #0b2820;
@@ -41,16 +41,22 @@ h1 {
     position: absolute;
     color: floralwhite;
     margin-top: 200px; 
-    margin-left: 720px;
+    margin-left: 750px;
     background-color: black;
     opacity: 0.7
 }
 
 #Difficulty{
-  background-color: red;
+  margin-top: 200px;
+  margin-left: 650px;
   display: none;
   
 }
+
+#EasyD{
+/*display: none; */ 
+}
+
 #EImgD{
   display: inline;
   float: right;
@@ -61,7 +67,7 @@ h1 {
   border: 5px solid;
   border-color:  #0b2820;
   border-radius: 3px;
-  padding-right: 48px;
+  padding-right: 23px;
 }
 #EImgO{
   float: left;
@@ -72,7 +78,7 @@ h1 {
   border: 5px solid;
   border-color:  #0b2820;
   border-radius: 3px;
-  padding-right: 48px;
+  padding-right: 23px;
 }
 #found{
   margin-top: 150px;
@@ -80,3 +86,15 @@ h1 {
   position: absolute;
   
 }
+
+#InfoBar{
+  display: none;
+}
+
+#BotLi{
+  padding-top: 20px;
+  list-style-type: none;
+  color: floralwhite;
+  
+}
+
